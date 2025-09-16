@@ -1,21 +1,28 @@
 # WikiClubRecruitment - Stock Processing Module
 
-This project is a Python module for processing product stock data. It calculates total stock value and identifies out-of-stock or invalid products.
+Python module for processing product stock data. Calculates total stock value and identifies out-of-stock or invalid products.
 
 ---
 
-## Installation
+## Installation & Setup
 
-# Clone the repository
-# git clone <repository-url>
-# cd WikiClubRecruitment
+Clone the repository:
 
-# Install dependencies (only for testing)
-# pip install pytest
+```bash
+git clone <repository-url>
+cd WikiClubRecruitment
+```
+Install Dependencies (only for testing)
+```bash
+pip install pytest
+```
+Running Tests
 
----
+* Run tests from the project root:
+```bash
+python -m pytest
+```
+## Test Output
 
-## Running Tests
+![Running Tests](test_screenshot.png "Test Output")
 
-# From the project root, run:
-# python -m pytest
